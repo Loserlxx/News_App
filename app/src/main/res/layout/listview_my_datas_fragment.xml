@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+
+    <ImageView
+        android:id="@+id/iv_icon_my_datas_fragment_activity_main"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        />
+    <TextView
+        android:id="@+id/tv_title_my_datas_fragment_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我是标题："
+        android:maxLines="1"
+        android:maxEms="6"
+        android:ellipsize="end"
+        android:textSize="16sp"
+        android:textColor="#000"
+        android:layout_toRightOf="@+id/iv_icon_my_datas_fragment_activity_main"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        />
+    <TextView
+        android:id="@+id/tv_date_my_datas_fragment_activity_main"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2016-12-14"
+        android:textSize="14sp"
+        android:textColor="#c9c9c9"
+        android:layout_alignParentRight="true"
+        android:layout_alignBottom="@+id/iv_icon_my_datas_fragment_activity_main"
+        android:paddingBottom="10dp"
+        android:paddingRight="10dp"
+        />
+
+</RelativeLayout>

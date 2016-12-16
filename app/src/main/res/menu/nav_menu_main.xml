@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <!--single实现点击选中状态-->
+    <group
+        android:id="@+id/menu_group"
+        android:checkableBehavior="single"
+        >
+        <item
+            android:id="@+id/item_news_nav_main"
+            android:icon="@drawable/news"
+            android:title="新闻" />
+
+        <item
+            android:id="@+id/item_image_nav_main"
+            android:icon="@drawable/image"
+            android:title="图片"
+            />
+        <item
+            android:id="@+id/item_collection_nav_main"
+            android:icon="@drawable/collection"
+            android:title="收藏"
+            />
+        <item
+            android:id="@+id/item_chat_main_activity"
+            android:icon="@drawable/chat"
+            android:title="聊天"
+            />
+    </group>
+</menu>
