@@ -35,5 +35,4 @@ dependencies {
     //图片加载glide
     compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.android.support:support-v4:25.0.1'
-    compile project(':library')
 }

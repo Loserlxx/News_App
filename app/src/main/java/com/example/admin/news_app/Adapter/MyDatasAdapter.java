@@ -28,7 +28,7 @@ import java.util.List;
  */
 
 public class MyDatasAdapter extends BaseAdapter {
-    private List<NewsAPP.ResultBean.DataBean> datas;
+    public List<NewsAPP.ResultBean.DataBean> datas;
     private Context context;
 
     public MyDatasAdapter(Context context, List<NewsAPP.ResultBean.DataBean> datas) {
